@@ -1,3 +1,3 @@
-    var num = Number("5.8")
-       // num += num
+    var num = Number("353553")
+        num += num
     console.log(num)
