@@ -29,6 +29,6 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ shoaibbootcampapp.surge.sh --token ${{secrets.SHOAIB_JAVA}}
+      run: surge ./ shoaibjavaapp.surge.sh --token ${{secrets.SHOAIB_JAVA}}
 # This is a basic workflow to help you get started with Actions
 
